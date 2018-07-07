@@ -1,0 +1,13 @@
+﻿@page
+@using IHttpClientFactorySample.Pages
+@model IHttpClientFactorySample.Pages.IndexModel
+@{
+    ViewData["Title"] = "HttpClientFactory Samples";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p><a asp-page="BasicUsage">Basic usage of HttpClientFactory directly.</a></p>
+<p><a asp-page="NamedClient">Using a named client.</a></p>
+<p><a asp-page="TypedClient">Using a typed client.</a></p>
+<p><a asp-page="UnreliableEndpointConsumer">Using a Polly WaitAndRetry handler.</a></p>

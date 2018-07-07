@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorUIClassLib", "RazorCla
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorUIWebApp", "RazorClassLibraries\RazorUIWebApp\RazorUIWebApp.csproj", "{90D9CC29-C775-4FB0-9164-B80186255E89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScaffoldIdentity", "ScaffoldIdentity\ScaffoldIdentity.csproj", "{62C16ABB-C0A2-4E37-B3F0-6E3D9F638477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScaffoldIdentity", "ScaffoldIdentity\ScaffoldIdentity.csproj", "{62C16ABB-C0A2-4E37-B3F0-6E3D9F638477}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDPR", "GDPR\GDPR.csproj", "{EBB449CB-AED1-45BD-9A1D-181CD73D154B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GDPR", "GDPR\GDPR.csproj", "{EBB449CB-AED1-45BD-9A1D-181CD73D154B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IHttpClientFactory", "IHttpClientFactory\IHttpClientFactory.csproj", "{93669C08-CF64-458E-9316-B7F3182ABFAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,18 @@ Global
 		{EBB449CB-AED1-45BD-9A1D-181CD73D154B}.Release|x64.Build.0 = Release|Any CPU
 		{EBB449CB-AED1-45BD-9A1D-181CD73D154B}.Release|x86.ActiveCfg = Release|Any CPU
 		{EBB449CB-AED1-45BD-9A1D-181CD73D154B}.Release|x86.Build.0 = Release|Any CPU
+		{93669C08-CF64-458E-9316-B7F3182ABFAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93669C08-CF64-458E-9316-B7F3182ABFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93669C08-CF64-458E-9316-B7F3182ABFAB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{93669C08-CF64-458E-9316-B7F3182ABFAB}.Debug|x64.Build.0 = Debug|Any CPU
+		{93669C08-CF64-458E-9316-B7F3182ABFAB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{93669C08-CF64-458E-9316-B7F3182ABFAB}.Debug|x86.Build.0 = Debug|Any CPU
+		{93669C08-CF64-458E-9316-B7F3182ABFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93669C08-CF64-458E-9316-B7F3182ABFAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93669C08-CF64-458E-9316-B7F3182ABFAB}.Release|x64.ActiveCfg = Release|Any CPU
+		{93669C08-CF64-458E-9316-B7F3182ABFAB}.Release|x64.Build.0 = Release|Any CPU
+		{93669C08-CF64-458E-9316-B7F3182ABFAB}.Release|x86.ActiveCfg = Release|Any CPU
+		{93669C08-CF64-458E-9316-B7F3182ABFAB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
